@@ -15,7 +15,7 @@ body {
     color: white;
   }
 #portrait {
-   flex-shrink: 0;
+  flex-shrink: 0;
   width: 250px;
   height: auto;
   border: 2px solid white; 
@@ -40,11 +40,11 @@ body {
   color: #FFC857;
 }
 #fname {
-  font-size: 50px;
+  font-size: 100px;
   margin-bottom: -20px;
 }
 #lname {
-  font-size: 40px;
+  font-size: 80px;
   margin-top: 7px;
 }
  header {
