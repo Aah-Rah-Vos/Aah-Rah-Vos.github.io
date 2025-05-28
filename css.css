@@ -1,0 +1,86 @@
+body {
+    font-family: share tech, sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+  }
+#portfolio {
+  margin: 0;
+  font-size: 2em;
+}
+#face {
+  margin: 0;
+  font-size: 2em;
+}
+.colored {
+  color: #FFC857;
+}
+#fname {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+#lname {
+  font-size: 40px;
+  margin-top: 7px;
+}
+ header {
+    background-color: #fffff;
+    color: white;
+    padding: 1em;
+    border-bottom: 2px solid white;
+  }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-color: white;
+}
+#logo {
+  display: flex;
+  align-items: center; /* vertically centers them */
+  gap: 0.5em; /* space between title and face */
+}
+.header-container h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav ul {
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 3em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #191919;
+    color: white;
+  }
+  
