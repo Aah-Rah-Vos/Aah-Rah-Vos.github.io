@@ -1,9 +1,33 @@
+#together {
+  justify-content: space-between;
+  display: flex;
+}
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
 body {
     font-family: share tech, sans-serif;
     margin: 0;
     background-color: #000000;
     color: white;
   }
+#portrait {
+   flex-shrink: 0;
+  width: 250px;
+  height: auto;
+  border: 2px solid white; 
+}
+#portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#name{
+  flex: 1;
+}
 #portfolio {
   margin: 0;
   font-size: 2em;
@@ -38,8 +62,8 @@ body {
 }
 #logo {
   display: flex;
-  align-items: center; /* vertically centers them */
-  gap: 0.5em; /* space between title and face */
+  align-items: center; 
+  gap: 0.5em; 
 }
 .header-container h1 {
   margin: 0;
