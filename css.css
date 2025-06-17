@@ -41,7 +41,7 @@ body {
   margin-top: 7px;
 }
  header {
-    background-color: #fffff;
+    background-color: #black;
     color: white;
     padding: 1em;
     border-bottom: 2px solid white;
@@ -101,11 +101,26 @@ nav a {
     color: white;
   }
   
-  #who {
+#who {
     font-size: 50px;
   }
 
-  table {
+#become {
+  font-size: 50px;
+}
+
+#stress {
+  font-size: 50px;
+}
+
+#awareness {
+  font-size: 50px;
+}
+#change {
+  font-size: 50px;
+}
+
+table {
       width: 100%;
       margin-top: 1rem;
       border-collapse: collapse;
